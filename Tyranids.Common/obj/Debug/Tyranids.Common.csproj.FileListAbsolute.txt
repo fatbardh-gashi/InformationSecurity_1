@@ -1,0 +1,5 @@
+C:\temp\IDSVideos\source\TyranIds\Tyranids.Common\obj\Debug\Tyranids.Common.csprojResolveAssemblyReference.cache
+C:\temp\IDSVideos\source\TyranIds\Tyranids.Common\bin\Debug\Tyranids.Common.dll
+C:\temp\IDSVideos\source\TyranIds\Tyranids.Common\bin\Debug\Tyranids.Common.pdb
+C:\temp\IDSVideos\source\TyranIds\Tyranids.Common\obj\Debug\Tyranids.Common.dll
+C:\temp\IDSVideos\source\TyranIds\Tyranids.Common\obj\Debug\Tyranids.Common.pdb

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlertsModelStoreContainer" CdmEntityContainer="AlertsEntities">
+    <EntitySetMapping Name="Alerts">
+      <EntityTypeMapping TypeName="AlertsModel.Alerts">
+        <MappingFragment StoreEntitySet="Alerts">
+          <ScalarProperty Name="AlertId" ColumnName="AlertId" />
+          <ScalarProperty Name="DatasourceId" ColumnName="DatasourceId" />
+          <ScalarProperty Name="SourceIp" ColumnName="SourceIp" />
+          <ScalarProperty Name="SourcePort" ColumnName="SourcePort" />
+          <ScalarProperty Name="DestinationIp" ColumnName="DestinationIp" />
+          <ScalarProperty Name="DestinationPort" ColumnName="DestinationPort" />
+          <ScalarProperty Name="Payload" ColumnName="Payload" />
+          <ScalarProperty Name="Captured" ColumnName="Captured" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

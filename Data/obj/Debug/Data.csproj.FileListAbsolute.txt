@@ -1,0 +1,12 @@
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\Tyranids.Data.dll.config
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\Tyranids.Data.dll
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\Tyranids.Data.pdb
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\EntityFramework.dll
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\EntityFramework.xml
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\temp\IDSVideos\source\TyranIds\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\temp\IDSVideos\source\TyranIds\Data\obj\Debug\Tyranids.Data.dll
+C:\temp\IDSVideos\source\TyranIds\Data\obj\Debug\Tyranids.Data.pdb
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\Tyranids.Common.dll
+C:\temp\IDSVideos\source\TyranIds\Data\bin\Debug\Tyranids.Common.pdb

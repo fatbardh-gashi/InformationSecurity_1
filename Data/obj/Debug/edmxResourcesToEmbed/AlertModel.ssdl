@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlertsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Alerts">
+    <Key>
+      <PropertyRef Name="AlertId" />
+    </Key>
+    <Property Name="AlertId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DatasourceId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="SourceIp" Type="nvarchar" MaxLength="15" />
+    <Property Name="SourcePort" Type="int" />
+    <Property Name="DestinationIp" Type="nvarchar" MaxLength="15" />
+    <Property Name="DestinationPort" Type="int" />
+    <Property Name="Payload" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="Captured" Type="timestamp" StoreGeneratedPattern="Computed" />
+    <Property Name="Created" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="AlertsModelStoreContainer">
+    <EntitySet Name="Alerts" EntityType="Self.Alerts" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
